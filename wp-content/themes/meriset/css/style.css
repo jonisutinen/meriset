@@ -1,0 +1,68 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+.content {
+    margin-top: 100px;
+    margin-bottom: 500px;
+    white-space: normal;
+}
+.navbar-brand {
+    filter: invert(100%);
+    margin-right: 20px;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar li:hover {
+    background-color: lightblue;
+}
+
+
+.navbar li a {
+    padding: 20px;
+}
+
+.navbar li a:hover {
+    background-color: lightblue;
+}
+/* .carousel-item img {
+    min-height: auto;
+    min-width: 100%;
+     
+}*/
+
+.card {
+    margin: 50px 20px;
+    border-left: 1px solid rgba(0,0,0,.125) !important;
+}
+/* @media (max-width: 900px){
+    .card-group {
+        display: block;
+    }
+} */
+.button-container {
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 75px;
+    background-color: #565656;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    line-height: 2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+footer .col-sm {
+    padding-bottom: 20px;
+}
+.fa-facebook {
+    padding-top: 40px;
+    font-size: 3em;
+}
